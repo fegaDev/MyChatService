@@ -1,0 +1,40 @@
+.button-data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-data-username{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: space-around;
+}
+.button-data-username input, .button-data-password input{
+    border-radius: 20px;
+    height: 30px;
+    border: 1px dashed var(--lightGreen);
+    background-color: transparent;
+    padding-left: 15px;
+    color: var(--lightGreen);
+    outline: var(--green);
+    transition: box-shadow 0.3s linear;
+}
+.button-data-username input:focus, .button-data-password input:focus{
+    box-shadow: 1px 1px 10px var(--green);
+}
+.button-data-username img, .button-data-password img{
+    width: 30px;
+}
+.button-data-password{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}

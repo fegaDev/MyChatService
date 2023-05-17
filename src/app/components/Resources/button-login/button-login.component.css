@@ -1,0 +1,27 @@
+.input-container{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--green);
+    justify-content: space-around;
+    align-items: center;
+    width: 330px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 10px 5px 2px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s linear, box-shadow 0.2s linear;
+
+}
+.input-container img{
+    width: 30px;
+    height: 30px;
+}
+.input-container h2{
+    color: var(--lightGreen);
+    text-shadow: 1px 1px 3px black;
+}
+.input-container:hover{
+    transform: translate(1px ,2px);
+    box-shadow:-10px -5px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}

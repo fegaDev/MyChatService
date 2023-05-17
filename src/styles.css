@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+   --green : #06c647;
+   --lightGreen : #a6fcba;
+   --darkGreen : #0e6740;
+   --darkGreen2 : #12493e;
+   --blackGreen: #04232a;
+   --gray : #607084;
+   --gray2 : #5c6a7c;
+   --gray3 : #3c4d62;
+   --gray4 : #344353;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--blackGreen);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

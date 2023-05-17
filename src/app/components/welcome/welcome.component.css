@@ -1,0 +1,30 @@
+.welcome-container{
+    width: 75%;
+    height: 350px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.welcome-container .icon-container{
+    background-color: rgba(27, 23, 23, 0.767);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.welcome-container .icon-container img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+
+.welcome-container .title-container h2{
+    color: var(--gray);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
